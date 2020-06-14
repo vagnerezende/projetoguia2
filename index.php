@@ -85,15 +85,15 @@
               infowincontent.appendChild(strong);
 
 
-              var iconBase = 'http://localhost/CONEX%C3%83O/';
+              var iconBase = 'http://localhost/projetoguia2-master/';
               var icon = customLabel[type] || {};
               var marker = new google.maps.Marker({
                 map: map,
                 position: point,
-                icon: iconBase + 'icone_cadeirante.png'
+                icon: iconBase + 'icone_cadeirante c.png'
               });
 
-
+              
 
               marker.addListener('click', function() {
                 infoWindow.setContent(infowincontent);
